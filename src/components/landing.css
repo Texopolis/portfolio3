@@ -1,0 +1,60 @@
+.landing{
+    font-family: 'Special Elite', cursive;
+    width: 100%;
+    min-height:100vh;
+    background: url(../images/gridBkg.webp);
+    /* background-position: center; */
+    background-size: contain;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.landing-container{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /* height:60vh; */
+    width: 60%;
+    /* border: 1px solid red; */
+}
+
+.landing-title{
+    font-family: 'Major Mono Display', monospace;
+    color: #fff;
+    font-size: 3.5em;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 15px #fff,
+        0 0 40px #0ff,
+        0 0 50px #0ff,
+        0 0 60px #0ff;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom:.5em;
+}
+
+.animating-title{
+    text-align:left;
+    color:rgba(255, 255, 255, 0.562);
+}
+
+.major{
+    font-family: 'Major Mono Display', monospace;
+    color: #fff;
+    font-size: 2.5em;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 8px #fff,
+        0 0 15px #fff,
+        0 0 40px #0ff,
+        0 0 50px #0ff,
+        0 0 60px #0ff;
+        /* 0 0 100px #0ff,
+        0 0 150px #0ff; */
+
+    }

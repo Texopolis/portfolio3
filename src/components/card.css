@@ -1,0 +1,167 @@
+
+.normal-card{
+  box-sizing: border-box;
+  color:white;
+  font-family: 'Special Elite', cursive;
+  height:250px;
+  width:250px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  /* text-align:center; */
+  cursor: pointer;
+  color:rgba(255, 255, 255, 0.74);
+  border:1px solid grey;
+  z-index: 1;
+  position:relative;
+}
+
+.normal-card:hover{
+    box-shadow:0px 10px 30px rgba(255,255,255, 0.25)
+
+}
+
+.normal-card-tech{
+    /* margin-left:auto; */
+    display:flex;
+    flex-direction:column;
+    overflow:auto;
+    width:50%;
+    align-self: flex-end;
+    text-align:right;
+    margin:15px 15px 0 0;
+    font-size:.75rem;
+    z-index: 2;
+    /* position: absolute; */
+    /* border:1px solid blue; */
+  }
+  
+  .html{
+    color:rgb(88, 88, 224);
+  }
+  
+  .css{
+    color:rgb(226, 26, 226);
+  }
+  
+  .javascript{
+    color:rgb(194, 194, 52);
+  }
+  
+  .react{
+    color: rgb(33, 170, 33)
+  }
+  
+  .solidity{
+    color:rgb(18, 208, 233)
+  }
+
+  .rust{
+    color:rgba(255, 102, 0, 0.822);
+  }
+
+  .normal-card-title{
+    color:rgba(255, 255, 255, 0.562);
+    font-family: 'Special Elite', cursive;
+    font-size: 1.25rem;
+    margin-bottom:30px;
+    justify-self: flex-end;
+    text-align:center;
+    padding:15px;
+    z-index: 2;
+  }
+
+  .thumb-image{
+    width:200px;
+    height:200px;
+    position:absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    /* top: 50%;
+    transform: translate(0%, -50%); */
+    opacity: .6;
+    z-index: 0;
+    object-fit: cover;
+  }
+
+  .expandedCard{
+    /* color: white; */
+    height:90%;
+    width:90%;
+    border:1px solid red;
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    /* margin:0 auto; */
+    left:5%;
+    top:105%;
+    /* transform: translate(-50%, -50%); */
+    z-index:2;
+    background-color:rgb(0, 0, 0);
+  }
+
+  .expanded-card-title{
+    color:rgba(255, 255, 255, 0.562);
+    font-family: 'Special Elite', cursive;
+    font-size:4rem;
+  }
+
+  .expanded-card-tech{
+    display:flex;
+    flex-direction:column;
+    overflow:auto;
+    width:50%;
+    align-self: flex-end;
+    text-align:right;
+    margin:15px 30px 0 0;
+    font-family: 'Special Elite', cursive;
+    font-size:1.5rem;
+    z-index: 2;
+ 
+  }
+
+  .btn-close{
+    /* position:absolute;
+    top:20px;
+    right:30px; */
+    align-self: flex-end;
+    padding:1.85em;
+    cursor: pointer;
+    background:none;
+    outline:none;
+    border:none;
+  }
+
+
+  .btn-close:hover{
+    transform:scale(1.25);
+  }
+
+  .btn-image{
+    width:30px;
+    height:35px;
+  }
+  
+  .description{
+    font-family: 'Special Elite', cursive;
+  }
+
+  .links{
+    display:flex;
+    margin-top:2em;
+    justify-content:space-around;
+  }
+  
+  .links > a {
+    font-family: 'Special Elite', cursive;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.562);
+    text-transform: uppercase;
+    font-size: 1.5em;
+  }
+  
+  a:hover{
+    transform:scale(1.2);
+    color:#83B6CB;
+  }

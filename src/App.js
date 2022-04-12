@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ProjectCard from './components/ProjectCard'
+import data from './data/projectData.js'
+import Landing from './components/Landing'
+import NavBar from './components/NavBar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Landing />
+      <div className="projects">
+        <div className="project-grid-container">
+            {data.projects.map((project, id)=>{
+              return(
+                <ProjectCard
+                  key={id}
+                  {...project} />
+              )
+            })}
+        </div>
+      </div>
     </div>
   );
 }
