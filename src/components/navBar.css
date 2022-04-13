@@ -12,19 +12,75 @@
     justify-content:space-evenly;
     align-items:flex-end;
     margin-left:15px;
+    z-index: 2;
 }
 
-a{
-    cursor: pointer;
-    color:rgba(1, 236, 253, 0.781);
-    font-weight: bold;
+.nav-about{
+    position: relative;
 }
 
-a:hover{
-    color: rgb(247, 4, 255);
+.about{
+    position:absolute;
+    left:75px;
+    top:0;
+    overflow-y:scroll;
+    /* display: flex; */
+    /* width:85vw;
+    min-height:100%;
+    padding:2em; */
+    border-radius:2em;
+    background: url(../images/cloudsBackground.png);
+    background-color:rgb(83, 225, 235);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
 
-li:hover{
-    transform:scale(1.5);
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top:5em;
+    padding-bottom:5em;
+    text-align:left;
+    width:85vw;
+    min-height:100%;
+    flex-shrink: 2;
+    padding:2em;
 
+  }
+
+.portraitImg{
+    height: 150px;
+    float:right;
+  border-radius:2em;
+  margin:1em;
+  filter:drop-shadow(4px 4px 8px rgb(255, 0, 242));
 }
+
+.aboutTextTitle{
+    color:black;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 0 1px 2px rgb(255, 0, 242);
+    font-size: 4.5em;
+    transform:translateY(-.5em) rotate(-5deg);
+    margin-bottom:.25em;
+  }
+  
+  .aboutText{
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: wrap;
+    font-size:1.5em;
+    font-weight:800;
+    line-height:1.8em;
+    color:black;
+  }
+  
+
+  @media screen and (max-width: 650px){
+    .about{
+        /* width: 75vw; */
+    }
+  }
+  
+

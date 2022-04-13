@@ -101,20 +101,29 @@ const projects=[
         "video": false
     },
     {
-        "title": "Coming Soon",
+        "title": "In Progress...",
         "description": "DESCRIPTION GOES HERE",
-        // "thumbnail": "",
+        "thumbnail": require('../images/crud_app.png'),
         "html": true,
         "css": true,
         "javascript": true,
         "react": true,
-        "solidity": true,
-        "rust":true,
-        // "url": "https://web3vote.netlify.app/",
-        // "code": "https://github.com/Texopolis/voteapp",
+        "solidity": false,
+        "rust":false,
+        "node":true,
+        "express": true,
+        "mongoDB":true,
+        "url": false,
+        "code": false,
         "video": false
     }
 
 ]
 
-export default { projects } 
+const about={
+    "photo":require("../images/portrait7.png"),
+    "description":"My name is Douglas Bernstein and I am a frontend developer from Berkeley CA with a passion for building delightful, responsive, and performative user interfaces.\n  By building on the experiences that have brought me success leading teams and implementing systems the last 20 years, I love to formulate ideas and efficient solutions to complex problems. Presently my main interests are in developing blockchain applications that go beyond cryptocurrencies and expose the secure nature and flexibility of dApps.\n  If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!"
+    
+}
+
+export default  {projects, about} ;

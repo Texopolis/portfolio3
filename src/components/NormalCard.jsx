@@ -24,6 +24,9 @@ const NormalCard = (props)=> {
         {props.react && <p className="react">react</p>}
         {props.solidity && <p className="solidity">solidity</p>}
         {props.rust && <p className="rust">rust</p>}
+        {props.node && <p className="node">node</p>}
+        {props.express && <p className="express">express</p>}
+        {props.mongoDB && <p className="mongoDB">mongoDB</p>}
       </motion.div>
       <motion.h2 layoutId="title" className="normal-card-title">{props.title}</motion.h2>
       {isShown && <img className="thumb-image" src={props.thumbnail} alt="project thumbnail"/>}

@@ -27,11 +27,11 @@ function ExpandedCard(props) {
       layoutId="title">{props.title}</motion.h2>
       <div className="main-content-container">
         <div className="description">{props.description}</div>
-        <img className="thumb-image" src={props.thumbnail}/>
+        <img className="card-image" src={props.thumbnail}/>
       </div>
       <div className="links">
-                  <a>Live site</a>
-                  <a>Code</a>
+                  {props.url && <a>Live site</a>}
+                  {props.code && <a>Code</a>}
                   {props.video && <a>video</a>}
       </div>
     </motion.div>
