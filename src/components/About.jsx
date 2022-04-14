@@ -1,8 +1,14 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 function About(props) {
+  
+  
+
   return (
-    <div className="about">
+    <motion.div 
+    className="about"
+    initial={{x:-1500}}
+    animate={{x:0}}>
         <div className="aboutContainer">
             <h2 className='aboutTextTitle'>Hey there!</h2>
             <div className="aboutSection">
@@ -10,7 +16,7 @@ function About(props) {
                 <p className="aboutText">{props.description}</p>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

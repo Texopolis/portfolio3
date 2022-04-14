@@ -121,7 +121,8 @@
   .expanded-card-title{
     color:rgba(255, 255, 255, 0.562);
     font-family: 'Special Elite', cursive;
-    font-size:4rem;
+    font-size:3rem;
+    padding:.5em 0 .5em 0;
   }
 
   .expanded-card-tech{
@@ -133,13 +134,36 @@
     text-align:right;
     margin:15px 30px 0 0;
     font-family: 'Special Elite', cursive;
-    font-size:1.5rem;
+    font-size:1.15rem;
     z-index: 2;
  
   }
 
+  .main-content-container{
+    display:flex;
+    align-items:center;
+    /* border:1px solid green; */
+  }
+
+  .description{
+    color:white;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    padding:1.5em;
+    line-height:1.4em;
+    min-width:50%;
+    /* text-align:left; */
+  }
+
+  .card-image-container{
+    /* width:50%; */
+    /* aspect-ratio: 1 / 1; */
+    padding:1.5em;
+    /* border:1px solid red; */
+  }
+
   .card-image{
-    width:800px;
+    width:100%;
   }
 
   .btn-close{
@@ -164,14 +188,12 @@
     height:35px;
   }
   
-  .description{
-    font-family: 'Special Elite', cursive;
-  }
-
   .links{
     display:flex;
-    margin-top:2em;
+    padding:2em;
     justify-content:space-around;
+    /* border:1px solid green; */
+
   }
   
   .links > a {
@@ -179,10 +201,39 @@
     cursor: pointer;
     color:rgba(255, 255, 255, 0.562);
     text-transform: uppercase;
-    font-size: 1.5em;
+    text-decoration: none;
+    font-size: 1.75em;
   }
   
+  .live-site-link{
+    font-family: 'Special Elite', cursive;
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.562);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.75em;
+
+  }
+
   a:hover{
     transform:scale(1.2);
     color:#83B6CB;
+  }
+
+  .site-link-container{
+    position: relative;
+  }
+
+  .metamask{
+    position:absolute;
+    bottom: 10;
+    left:0;
+    display: flex;
+    align-items:center;
+  }
+
+  .metamask-text{
+    color:rgb(245, 166, 48);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
   }

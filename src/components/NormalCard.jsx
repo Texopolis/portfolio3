@@ -29,7 +29,7 @@ const NormalCard = (props)=> {
         {props.mongoDB && <p className="mongoDB">mongoDB</p>}
       </motion.div>
       <motion.h2 layoutId="title" className="normal-card-title">{props.title}</motion.h2>
-      {isShown && <img className="thumb-image" src={props.thumbnail} alt="project thumbnail"/>}
+      {isShown && <motion.img className="thumb-image" src={props.thumbnail} alt="project thumbnail"/>}
     </motion.div>
   )
 }

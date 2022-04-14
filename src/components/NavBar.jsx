@@ -19,7 +19,11 @@ function NavBar(props) {
   const btnStyle={
     fontSize:40, 
     color: 'grey',
-    
+  }
+
+  const btnStyleOpen={
+    fontSize:40,
+    color:'red',
   }
 
   return (
@@ -32,7 +36,7 @@ function NavBar(props) {
         <ul className="nav-bar">
             <li className="nav-about">
               <IconButton onClick={aboutClickHandler} target="blank">
-                <PersonIcon style={btnStyle} />
+                <PersonIcon style={aboutIsOpen? btnStyleOpen : btnStyle }/>
               </IconButton>
               {aboutIsOpen && <About {...props}/>}
             </li>
