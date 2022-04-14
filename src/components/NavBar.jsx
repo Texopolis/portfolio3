@@ -13,7 +13,6 @@ function NavBar(props) {
   const [aboutIsOpen, setAboutIsOpen] =useState(false);
 
   const aboutClickHandler = ()=>{
-    console.log('clicked')
     setAboutIsOpen((prev)=>!prev)
   }
 
