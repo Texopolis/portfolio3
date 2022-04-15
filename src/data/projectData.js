@@ -33,7 +33,7 @@ const projects=[
     },
     {
         "title": "CLI Rust Calculator",
-        "description": "This is a simple command line interface calculator written entirely in Rust. This is my first project using Rust exclusively and it represents a recent meaningful step in my journey to write software professionally.",
+        "description": "This is a simple command line interface calculator written entirely in Rust. This is my first project using Rust exclusively- I am currently teaching myself Rust as I believe it will increase my ability to develop frontends for Solana applications as my understanding of Rust programs (contracts) increases.",
         "thumbnail": require('../images/rust_calc_thumb.png'),
         "html": false,
         "css": false,

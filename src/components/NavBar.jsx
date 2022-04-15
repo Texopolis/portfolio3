@@ -32,12 +32,12 @@ function NavBar(props) {
 
   const smBtnStyleOpen={
     fontSize:25,
-    color:'red',
+    color:'#02B1D5',
   }
 
   const btnStyleOpen={
     fontSize:40,
-    color:'red',
+    color:'#02B1D5',
   }
 
   return (

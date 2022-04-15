@@ -4,6 +4,7 @@ import data from './data/projectData.js'
 import Landing from './components/Landing'
 import NavBar from './components/NavBar'
 import Background from './components/Background';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
