@@ -3,20 +3,6 @@ import React from "react";
 
 const projects=[
     {
-        "title": "Solana NFT Gallery",
-        "description": "The Solana NFT Viewer project was created to display all NFTs held in any wallet on the Solana blockchain. You are able to enter a Solana wallet address in the search bar and once the data is returned from the blockchain, the NFTs held in that wallet will be displayed. Wallets are searched directly from the blockchain (not third party or centralized servers) ensuring up to date and accurate information. You can then 'favorite' any NFT which will reorder the entire collection and display the favorited NFTs first. Clicking on any NFT will take you to Solscan.io to display more info about that particular NFT.\nIf a NFT is part of a collection, the title will be edited and the NFT number in the collection will be displayed under the favorite icon.\nIncluded is a button to generate a random Solana address in case you don't have access to a wallet address.",
-        "thumbnail": require("../images/nft-viewer.png"),
-        "html": true,
-        "css": true,
-        "javascript": true,
-        "react": true,
-        "solidity": false,
-        "rust":false,
-        "url": "https://solananftviewer.netlify.app",
-        "code": "https://github.com/Texopolis/solanaNFTviewer",
-        "video": false
-    },
-    {
         "title": "Web3 Election dApp",
         "description": "This project was developed using React and Solidity- additional tools used were Truffle, Ganache, ethers.js and Metamask. The election voting dApp will accept a single vote from an authorized address and return an immutable vote talley. The vote talley cannot be altered and unauthorized accounts cannot record a vote. In developing this dApp I first wrote a smart contract in Solidity, deployed it to the Kovan testnet, then developed a frontend for the end-user to interact with. The contract does contain code that disallows authorized users to submit more than one vote, but that logic has been commented out in development.",
         "thumbnail": require('../images/web3voteappthumb.png'),
@@ -30,6 +16,20 @@ const projects=[
         "url": "https://web3vote.netlify.app/",
         "code": "https://github.com/Texopolis/voteapp",
         "video": false,
+    },
+    {
+        "title": "Solana NFT Gallery",
+        "description": "The Solana NFT Viewer project was created to display all NFTs held in any wallet on the Solana blockchain. You are able to enter a Solana wallet address in the search bar and once the data is returned from the blockchain, the NFTs held in that wallet will be displayed. Wallets are searched directly from the blockchain (not third party or centralized servers) ensuring up to date and accurate information. You can then 'favorite' any NFT which will reorder the entire collection and display the favorited NFTs first. Clicking on any NFT will take you to Solscan.io to display more info about that particular NFT.\nIf a NFT is part of a collection, the title will be edited and the NFT number in the collection will be displayed under the favorite icon.\nIncluded is a button to generate a random Solana address in case you don't have access to a wallet address.",
+        "thumbnail": require("../images/nft-viewer.png"),
+        "html": true,
+        "css": true,
+        "javascript": true,
+        "react": true,
+        "solidity": false,
+        "rust":false,
+        "url": "https://solananftviewer.netlify.app",
+        "code": "https://github.com/Texopolis/solanaNFTviewer",
+        "video": false
     },
     {
         "title": "CLI Rust Calculator",
