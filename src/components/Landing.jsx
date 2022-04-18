@@ -5,7 +5,7 @@ import nodesImg from '../images/nodes.png'
 export default function 
 Landing() {
   
-  const line1 ="A frontend blockchain developer";
+  const line1 ="A Web3 Frontend Developer";
   const sentence = {
     hidden: { opacity:1 },
     visible: {
