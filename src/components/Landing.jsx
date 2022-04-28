@@ -1,11 +1,10 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import './landing.css'
-import nodesImg from '../images/nodes.png'
 export default function 
 Landing() {
   
-  const line1 ="A Web3 Frontend Developer";
+  const line1 ="A Frontend Web3 Developer";
   const sentence = {
     hidden: { opacity:1 },
     visible: {
