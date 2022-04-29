@@ -124,7 +124,7 @@ const projects=[
 
 const about={
     "photo":require("../images/portrait7.png"),
-    "description":"My name is Douglas Bernstein and I am a frontend developer from Berkeley, CA with a passion for building delightful, responsive, and performative user interfaces.\n  By building on the experiences that have brought me success leading teams and implementing systems the last 20 years, I love to formulate ideas and efficient solutions to complex problems. Presently my main interests are in developing blockchain applications that go beyond cryptocurrencies and expose the secure nature and flexibility of dApps.\n  My free time is consumed with furniture woodworking projects (anything that involves building with my hands), gardening and walking my spaghetti obsessed dog. \n  If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!"
+    "description":"My name is Douglas Bernstein and I am a frontend developer from Berkeley, CA with a passion for building delightful, responsive, and performative user interfaces.\n  By building on the experiences that have brought me success leading teams and implementing systems the last 20 years, I love to formulate ideas and efficient solutions to complex problems. Presently my main interests are in developing blockchain applications that go beyond cryptocurrencies and expose the secure nature and flexibility of decentralized applications.\n  My free time is consumed with furniture woodworking projects (anything that involves building with my hands), gardening and walking my spaghetti obsessed dog. \n  If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!"
     
 }
 
