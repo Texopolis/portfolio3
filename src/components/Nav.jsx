@@ -195,7 +195,7 @@ const Nav = (props) => {
             </Box>
           </DialogTitle>
           <DialogContent>
-            <Typography fontFamily="sans" variant="subtitle1" sx={{whiteSpace:"pre-wrap"}}>
+            <Typography fontFamily="Roboto" variant="body1" fontWeight={500} sx={{whiteSpace:"pre-wrap"}}>
               {props.description}
             </Typography>
           </DialogContent>

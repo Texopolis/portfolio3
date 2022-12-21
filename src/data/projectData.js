@@ -160,7 +160,7 @@ export const projects = [
     solidity: false,
     rust: false,
     url: false,
-    code: "https://github.com/Texopolis/apiDashboard",
+    code: false,
     video: false,
   },
   {
