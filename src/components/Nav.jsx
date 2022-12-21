@@ -21,6 +21,7 @@ import portrait from "../images/portrait7.png";
 import clouds from "../images/cloudsBackground.png";
 import { Box } from "@mui/system";
 
+
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
@@ -101,7 +102,7 @@ const Nav = (props) => {
                   transform: "scale(1.3)",
                 },
               }}>
-              <FaceIcon color="secondary" fontSize="large" />
+              <FaceIcon color="success" fontSize="large" />
             </IconButton>
           </Tooltip>
         </MenuItem>
@@ -115,7 +116,7 @@ const Nav = (props) => {
               }}
               href="mailto:0douglasbernstein@gmail.com"
               target="blank">
-              <EmailIcon color="secondary" fontSize="large" />
+              <EmailIcon color="success" fontSize="large" />
             </IconButton>
           </Tooltip>
         </MenuItem>
@@ -129,7 +130,7 @@ const Nav = (props) => {
               }}
               href="https://github.com/Texopolis"
               target="blank">
-              <GitHubIcon color="secondary" fontSize="large" />
+              <GitHubIcon color="success" fontSize="large" />
             </IconButton>
           </Tooltip>
         </MenuItem>
@@ -143,7 +144,7 @@ const Nav = (props) => {
               }}
               href="https://www.linkedin.com/in/texopolis/"
               target="blank">
-              <LinkedInIcon color="secondary" fontSize="large" />
+              <LinkedInIcon color="success" fontSize="large" />
             </IconButton>
           </Tooltip>
         </MenuItem>

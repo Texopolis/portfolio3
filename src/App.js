@@ -16,17 +16,17 @@ function App() {
         <ParallaxBannerLayer speed={-50}>
           <img src={back} alt="background" className="background" />
         </ParallaxBannerLayer>
-        <Nav image={about.photo} description={about.description}/>
+        <Nav image={about.photo} description={about.description} />
         <Landing />
         <Container maxWidth="lg" direction="column">
           <Typography
             variant="h3"
             color="rgba(255, 255, 255, 0.562)"
             sx={{ my: 5 }}
-          fontFamily="Special Elite">
-            Projects
+            fontFamily="Special Elite">
+            Selected Work
           </Typography>
-          <Grid container gap={2} justifyContent="center" alignItems="stretch">
+          <Grid container gap={2} justifyContent="center" alignItems="stretch" sx={{marginBottom:"3em"}}>
             {projects.map((project, id) => {
               return (
                 <Grid item key={id} xs={6} md={4} lg={3}>

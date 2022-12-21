@@ -92,6 +92,14 @@ function ProjectCard2(props) {
                     sx={{ color: "rgb(226, 26, 226)" }}>
                     css
                   </Typography>
+                  )}
+                  {props.mui && (
+                  <Typography
+                    variant="body2"
+                    fontFamily="Special Elite"
+                    sx={{ color: "rgb(194, 194, 52)" }}>
+                    MUI
+                  </Typography>
                 )}
                 {props.tailwind && (
                   <Typography
@@ -164,7 +172,7 @@ function ProjectCard2(props) {
                     variant="body2"
                     fontFamily="Special Elite"
                     sx={{ color: "pink" }}>
-                    node
+                    node.js
                   </Typography>
                 )}
               </Box>
@@ -283,9 +291,10 @@ function ProjectCard2(props) {
             justifyContent: "flex-end",
             backgroundColor: "black",
             color: "#A9ABAE",
+            // border:"1px solid red"
           }}>
           {props.metamask && (
-            <Box sx={{ display: "flex", alignItems: "center" }}>
+            <Box sx={{ display: "flex", alignItems: "center", marginRight:"8px", marginBottom:"8px"}}>
               <Typography>*Requires Metamask</Typography>
               <a href="https://metamask.io/" target="blank">
                 <img
