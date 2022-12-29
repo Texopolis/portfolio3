@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./landing.css";
 
 export default function Landing() {
-  const line1 = "Web developer based in the San Francisco Bay Area";
+  const line1 = "Fullstack web developer based in the San Francisco Bay Area";
   const sentence = {
     hidden: { opacity: 1 },
     visible: {
