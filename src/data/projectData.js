@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     title: "Cazeira MVP",
-    description: "I currently develop and manage this full-stack housing marketplace for my employer Cazeira- a startup in the Bay Area. This version of the application is currently being developed after I successfully launched Cazeira's initial MVP during a pilot in late 2022 with active users on the site. Cazeira's main feature allows housing providers to create and list available units and will recommend those listings to eligible tenants. The platform integrates housing providers, tenants and caseworkers to provide a straightforward approach to accessing affordable housing.",
+    description: "I currently develop and manage this full stack housing marketplace for my employer Cazeira- a startup in the Bay Area. This version of the application is currently being developed after I successfully launched Cazeira's initial MVP during a pilot in late 2022 with active users on the site. Cazeira's main feature allows housing providers to create and list available units and will recommend those listings to eligible tenants. The platform integrates housing providers, tenants and caseworkers to provide a straightforward approach to accessing affordable housing.",
     thumbnail: require("../images/cazeira.png"),
     html: false,
     css: false,
