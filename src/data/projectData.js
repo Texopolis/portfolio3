@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "OpenAI Image Generator",
     description:
-      "Full stack web application that utilizes OpenAI's DALL-E API to return images based on a user's prompt. The server was written in Node and has a GET endpoint that integrates with a React SPA that was created using Vite and Tailwind.",
+      "Full stack web application that utilizes OpenAI's DALL-E API to return images based on a user's prompt. The server was written using Express and Typescript and has a GET endpoint that integrates with a React SPA that was created using Vite and Tailwind.",
     thumbnail: require("../images/openaiImageGen.png"),
     html: false,
     css: false,
@@ -170,5 +170,5 @@ export const projects = [
 export const about = {
   photo: require("../images/portrait7.png"),
   description:
-    "My name is Douglas Bernstein and I am a fullstack web developer from Berkeley, CA with a passion for building delightful, responsive, and performative web applications.\n  By building on the experiences that have brought me success leading teams and implementing systems the last 20 years, I love to formulate ideas and efficient solutions to complex problems. \n  My free time is consumed with furniture woodworking projects (anything that involves building with my hands), gardening and walking my spaghetti obsessed dog. \n  If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!",
+    "My name is Douglas Bernstein and I am a full stack web developer from Berkeley, CA with a passion for building delightful, responsive, and performative web applications.\n  By building on the experiences that have brought me success leading teams and implementing systems the last 20 years, I love to formulate ideas and efficient solutions to complex problems. \n  My free time is consumed with furniture woodworking projects (anything that involves building with my hands), gardening and walking my spaghetti obsessed dog. \n  If you have any questions or comments about the projects featured here, please feel free to reach out- I'd love to hear from you!",
 };
